@@ -1,124 +1,126 @@
-# 📝 Information Security Employee Assessment Quiz
+# 📝 Everyday Digital Security IQ Quiz
 
-> **Instructions for the Employee:**  
-> This assessment tests your understanding of essential information security practices at our organization. Complete all 10 scenario-based questions below. Once finished, submit your answers to your IT / Security Manager or via the company LMS.
+[English](QUIZ.md) | [简体中文](QUIZ_zh.md)
 
----
-
-**Employee Name:** _______________________  
-**Department:** __________________________  
-**Date:** ________________________________  
-**Passing Score:** 80% (8 / 10 correct)  
+> **Self-Assessment Instructions:**  
+> This quiz features 10 realistic, scenario-based questions to evaluate your everyday digital defense skills. Review each scenario and check the safest response. Once completed, compare your answers with the explanations in [README.md](README.md#9-answer-key--in-depth-explanations).
 
 ---
 
-### Scenario 1
-You receive an email from `support@micros0ft-security-update.com` stating:  
-> *"Urgent: Critical vulnerability detected on your laptop. Click here to download the patch within 2 hours or your account will be locked."*
-
-**What is the proper response?**
-- [ ] **A)** Click the link immediately to download the patch so your laptop remains safe.
-- [ ] **B)** Forward the email to all colleagues to warn them.
-- [ ] **C)** Do not click any links; report the email to the IT Security team using the PhishAlarm / Report button.
-- [ ] **D)** Reply to the email asking if the email is legitimate.
+**Participant:** _______________________  
+**Date:** ______________________________  
+**Target Score:** 8 / 10 correct (80%)  
 
 ---
 
-### Scenario 2
-Which of the following describes the most secure credential practice?
-- [ ] **A)** `P@ssw0rd2026!` changed every 30 days and written on a sticky note under your keyboard.
-- [ ] **B)** A 16+ character passphrase stored in an approved corporate password manager, protected with hardware token MFA.
-- [ ] **C)** Reusing the same 12-character alphanumeric password across your work email, personal email, and social accounts.
-- [ ] **D)** Saving your master password in a browser text file named `credentials.txt` on your desktop.
-
----
-
-### Scenario 3
-At 2:30 AM, your mobile device receives four consecutive MFA push notifications requesting approval to log into your corporate portal. You did not initiate this login.  
-**What action should you take?**
-- [ ] **A)** Approve the notification so your phone stops vibrating and you can go back to sleep.
-- [ ] **B)** Deny the request, do not approve, and immediately report the unauthorized attempts to IT Security.
-- [ ] **C)** Turn off your phone and ignore it.
-- [ ] **D)** Share the code with a coworker to see if they are also receiving it.
-
----
-
-### Scenario 4
-You badge into the office main entrance. An unfamiliar person carrying two heavy boxes walks right behind you and asks you to hold the secure door.  
-**How should you respond?**
-- [ ] **A)** Let them in immediately; holding doors is common courtesy.
-- [ ] **B)** Hold the door, but ask for their employee ID after they set the boxes down inside.
-- [ ] **C)** Politely hold the door open while asking them to badge in separately or escort them to the reception desk for visitor check-in.
-- [ ] **D)** Run away and ignore them.
-
----
-
-### Scenario 5
-While walking through the office parking lot, you spot a 64GB USB flash drive labeled *"Executive Compensation 2026 - Confidential"*.  
-**What should you do?**
-- [ ] **A)** Plug it into your work laptop to identify the owner and return it.
-- [ ] **B)** Plug it into a personal home computer instead to avoid infecting work systems.
-- [ ] **C)** Hand the drive directly over to IT Security without plugging it into any device.
-- [ ] **D)** Format the drive so you can reuse it for personal files.
-
----
-
-### Scenario 6
-You are traveling and need to send a confidential contract to a client while waiting at an airport with free, unsecured public Wi-Fi.  
-**What is the safest approach?**
-- [ ] **A)** Connect to the airport Wi-Fi and send the document as quickly as possible.
-- [ ] **B)** Use your corporate phone's encrypted cellular hotspot, or connect to the corporate VPN before accessing company files.
-- [ ] **C)** Ask another passenger to share their personal Wi-Fi password.
-- [ ] **D)** Rename the file extension to `.zip` and send it over public Wi-Fi.
-
----
-
-### Scenario 7
-You want to summarize a confidential internal sales report and extract customer contact details. You open a free public generative AI tool in your web browser.  
-**What is the correct protocol?**
-- [ ] **A)** Paste the entire report into the prompt; public AI tools keep all data confidential.
-- [ ] **B)** Only paste the customer names and phone numbers, but remove company revenue figures.
-- [ ] **C)** Do not paste confidential corporate data, customer PII, or internal metrics into public AI tools; consult IT for approved enterprise AI environments.
-- [ ] **D)** Translate the text into another language first, then paste it into the tool.
-
----
-
-### Scenario 8
-You receive an email appearing to come from your CEO:  
-> *"I am in an urgent closed-door acquisition meeting and cannot take calls. Please wire $25,000 immediately to this new supplier account. Do not call me, just confirm once done."*
+### Scenario 1: The Urgent Text Message
+You receive a text message from an unknown number:  
+> *"USPS: Your package delivery has been suspended due to an incomplete address. Update your street details within 12 hours at `http://postal-track-update.info` or the package will be returned."*
 
 **What should you do?**
-- [ ] **A)** Execute the transfer immediately because it came from the CEO and states it is urgent.
-- [ ] **B)** Verify the request through a secondary, out-of-band communication channel (e.g., known phone number, direct manager, or standard finance dual-authorization procedure) before taking any action.
-- [ ] **C)** Reply to the email asking the CEO for their credit card number instead.
-- [ ] **D)** Forward the email to your personal email account to process it from home.
+- [ ] **A)** Click the link immediately to ensure your package is delivered on time.
+- [ ] **B)** Forward the message to five friends to see if their packages are also delayed.
+- [ ] **C)** Do not click the link; check your tracking number directly on the official postal website or app.
+- [ ] **D)** Reply to the text message with your full home address.
 
 ---
 
-### Scenario 9
-You are leaving your desk for 5 minutes to grab coffee in the office breakroom.  
+### Scenario 2: Password Habits
+Which of the following is the most secure approach for safeguarding personal accounts?
+- [ ] **A)** Creating a short password like `P@ssw0rd2026!` and writing it on a piece of paper in your wallet.
+- [ ] **B)** Using a 16+ character passphrase of random words managed by a password manager, backed by app-based 2FA.
+- [ ] **C)** Using the exact same 12-character password across all your social media, personal email, and shopping accounts.
+- [ ] **D)** Saving all your passwords in an unencrypted screenshot titled `passwords.png` on your phone.
+
+---
+
+### Scenario 3: Midnight 2FA Alerts
+At 2:30 AM, your phone buzzes four consecutive times with 2FA push notifications asking: *"Did you just attempt to log into your account? Tap Approve to confirm."* You were fast asleep and did not initiate this.  
 **What should you do?**
-- [ ] **A)** Leave your computer unlocked since you will return in under 5 minutes.
-- [ ] **B)** Turn off your monitor, leaving the PC unlocked.
-- [ ] **C)** Lock your workstation (`Win + L` or `Cmd + Ctrl + Q`) before stepping away.
-- [ ] **D)** Ask a neighbor to keep an eye on your screen while you are away.
+- [ ] **A)** Tap "Approve" so your phone stops buzzing and you can go back to sleep.
+- [ ] **B)** Tap "Deny", and as soon as possible, change your account password from a trusted device.
+- [ ] **C)** Turn off your phone and ignore it permanently.
+- [ ] **D)** Screenshot the alert and post it on social media to ask what it means.
 
 ---
 
-### Scenario 10
-You accidentally click a link in an email and enter your corporate password on a site that you immediately realize is a fake login portal.  
-**What is the required response?**
-- [ ] **A)** Close the browser tab and pretend nothing happened to avoid getting into trouble.
-- [ ] **B)** Wait 24 hours to see if any unusual account logins occur.
-- [ ] **C)** Immediately disconnect network access (turn off Wi-Fi or unplug cable), notify the IT Security team, and change your password from another secure device.
-- [ ] **D)** Delete your browser history and restart your computer.
+### Scenario 4: Coffee Shop Hygiene
+You are working on your personal laptop at a crowded coffee shop and need to step away for 3 minutes to pick up your drink from the counter.  
+**What should you do?**
+- [ ] **A)** Leave the laptop wide open on the table since you will only be gone for a few moments.
+- [ ] **B)** Turn off your screen monitor without locking the system.
+- [ ] **C)** Lock your workstation (`Win + L` or `Cmd + Ctrl + Q`) and keep an eye on your belongings.
+- [ ] **D)** Ask a stranger sitting nearby to watch your unlocked laptop.
 
 ---
 
-### Score & Signature
+### Scenario 5: The Mystery Flash Drive
+While walking through a public park, you find a brand-new 128GB USB flash drive lying on a bench with a handwritten label reading *"Private Photos & Passwords"*.  
+**What should you do?**
+- [ ] **A)** Plug it into your personal laptop to inspect the contents and locate the owner.
+- [ ] **B)** Plug it into a public library computer so your own device doesn't catch a virus.
+- [ ] **C)** Do not plug it into any computer; leave it with the park lost-and-found or dispose of it safely.
+- [ ] **D)** Right-click and format the drive so you can keep it as free storage.
 
-**Total Score:** ______ / 10  
-**Result:** [ ] Passed  [ ] Needs Retake  
+---
 
-**Reviewer / Manager Signature:** ____________________________  
-**Date:** ________________________
+### Scenario 6: Financial Transactions on Public Wi-Fi
+You are waiting at an airport gate and urgently need to transfer money using your online banking portal. The airport offers an open, unencrypted free Wi-Fi network.  
+**What is the safest choice?**
+- [ ] **A)** Connect to the airport Wi-Fi and complete the transfer as quickly as possible.
+- [ ] **B)** Disconnect from the public Wi-Fi and use your phone's cellular mobile data (4G/5G) to make the transfer.
+- [ ] **C)** Ask a nearby traveler for access to their personal phone via Bluetooth.
+- [ ] **D)** Switch your browser to "Incognito Mode" and use the public Wi-Fi.
+
+---
+
+### Scenario 7: Artificial Intelligence & Private Documents
+You are using a free public AI chat assistant to draft a formal letter. Which of the following inputs poses a serious privacy risk?
+- [ ] **A)** Asking the AI to summarize an article about space exploration.
+- [ ] **B)** Asking the AI for a healthy dinner recipe based on ingredients in your fridge.
+- [ ] **C)** Uploading an unredacted photo of your driver's license and bank statement to extract information.
+- [ ] **D)** Asking the AI to rewrite an email to make it sound more polite.
+
+---
+
+### Scenario 8: The Distressed Friend Scam
+You receive a sudden message on social media from a close friend:  
+> *"Hey! I'm stranded abroad, lost my wallet and phone, and desperately need $300 for a hotel room. Can you wire it to this account right now? I'll pay you back tomorrow!"*
+
+**What is the first thing you should do?**
+- [ ] **A)** Send the money immediately because true friends help each other in emergencies.
+- [ ] **B)** Call your friend directly on their known phone number or reach out through mutual contacts to verify before sending any money.
+- [ ] **C)** Message back asking what their pet's name is.
+- [ ] **D)** Send half the requested amount to be safe.
+
+---
+
+### Scenario 9: Fake Antivirus Pop-Ups
+While browsing a website, a loud pop-up suddenly appears:  
+> *"CRITICAL WARNING: Your computer has been infected with 5 dangerous viruses! Call Microsoft Support immediately at 1-800-XXX-XXXX or click here to clean!"*
+
+**What is actually happening?**
+- [ ] **A)** Your operating system has detected malware and is providing official tech support.
+- [ ] **B)** It is a common "scareware" browser scam designed to trick you into calling a boiler-room scammer or downloading malware. Simply close the tab.
+- [ ] **C)** You must immediately disconnect your hard drive and take it to an electronics store.
+- [ ] **D)** You should call the number to verify if your computer is on their list.
+
+---
+
+### Scenario 10: Accidental Credential Entry
+You accidentally click a link in an email and type your email account password on a page that you immediately realize is a convincing fake.  
+**What should you do right away?**
+- [ ] **A)** Close the browser window, pretend it didn't happen, and hope for the best.
+- [ ] **B)** Wait a week to see if anything weird happens to your account.
+- [ ] **C)** Immediately log in to the genuine service from a safe device, change your password, and enable two-factor authentication.
+- [ ] **D)** Delete your browser search history and restart your computer.
+
+---
+
+### Score Summary
+
+**Score:** ______ / 10  
+**Rating:**  
+- **9 – 10:** Digital Guardian! Exceptional security awareness instincts.  
+- **7 – 8:** Solid defense. Review social engineering and public Wi-Fi nuances.  
+- **6 or lower:** High risk. We recommend reading [README.md](README.md) thoroughly to strengthen your digital habits.

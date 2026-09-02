@@ -1,314 +1,310 @@
-# 🛡️ Information Security Awareness Training & Assessment
+# 🛡️ Information Security Essentials for Everyone
 
-> **Company Information Security Training Program**  
-> *Target Audience:* All Employees, Contractors, and New Hires  
-> *Maintained By:* IT / Information Security Department  
-> *Version:* 1.0 | *Review Cycle:* Annual / Onboarding  
+[English](README.md) | [简体中文](README_zh.md)
+
+> **Everyday Digital Security & Scam Prevention Handbook**  
+> *Target Audience:* Everyone living in the digital age (Students, Professionals, Families & Everyday Web Users)  
+> *Core Mission:* Understand fundamental security concepts, spot common scams, and protect your personal privacy & digital assets.  
 
 ---
 
-## 🎯 Purpose & Scope
+## 🎯 Why Information Security Matters for Everyone
 
-In today's threat landscape, **the human element is the primary target for cyber attackers**. Over 80% of security incidents originate from social engineering, compromised credentials, or human error.
+In our hyper-connected world, **the human element is the primary target of cyber threats**. The overwhelming majority of account hacks, financial scams, identity thefts, and ransomware incidents do not stem from sophisticated zero-day exploits—they succeed because of simple human habits, artificial urgency, and misplaced trust.
 
-This repository serves as the official **Information Security Awareness Guide and Testing Framework**. It outlines mandatory security principles, common attack vectors, best practices for daily operations, and an interactive assessment quiz to validate staff readiness.
+Cybersecurity is no longer just for technical specialists; it is a **vital life skill** for anyone using a smartphone, laptop, or the internet. This handbook covers the essential rules of digital defense, practical tips to spot traps, and an interactive quiz to test your readiness.
 
 ---
 
 ## 📑 Table of Contents
 
-1. [Core Principles of Information Security](#1-core-principles-of-information-security)
-2. [Identity & Access Management (Passwords & MFA)](#2-identity--access-management)
-3. [Social Engineering & Phishing Awareness](#3-social-engineering--phishing-awareness)
+1. [Core Principles: The CIA Triad & Security Mindset](#1-core-principles-the-cia-triad--security-mindset)
+2. [Account & Identity Defense (Passwords & MFA)](#2-account--identity-defense)
+3. [Spotting Phishing & Social Engineering Scams](#3-spotting-phishing--social-engineering-scams)
 4. [Device & Physical Security](#4-device--physical-security)
-5. [Data Classification & Privacy (Including AI Usage)](#5-data-classification--privacy)
-6. [Network & Remote Work Hygiene](#6-network--remote-work-hygiene)
-7. [Incident Response & Reporting Procedures](#7-incident-response--reporting-procedures)
-8. [Knowledge Assessment: Test Your Security IQ](#8-knowledge-assessment-test-your-security-iq)
-9. [Answer Key & Learning Rationales](#9-answer-key--learning-rationales)
-10. [Daily Security Checklist & Employee Pledge](#10-daily-security-checklist--employee-pledge)
+5. [Data & Privacy Protection (Including AI Tools)](#5-data--privacy-protection)
+6. [Network Security: Public Wi-Fi & Home Routers](#6-network-security)
+7. [Emergency First Aid: What to Do If You Get Hacked](#7-emergency-first-aid)
+8. [Everyday Security IQ Test: 10 Realistic Scenarios](#8-everyday-security-iq-test)
+9. [Answer Key & In-Depth Explanations](#9-answer-key--in-depth-explanations)
+10. [Daily Digital Security Habits Checklist](#10-daily-digital-security-habits-checklist)
 
 ---
 
-## 1. Core Principles of Information Security
+## 1. Core Principles: The CIA Triad & Security Mindset
 
-All corporate security guidelines are built upon the foundational **CIA Triad**:
+Every security decision revolves around the timeless **CIA Triad**:
 
-| Principle | Meaning | Workplace Example |
+| Principle | Plain English | Real-Life Example |
 | :--- | :--- | :--- |
-| **Confidentiality** | Data is accessible only to authorized individuals. | Customer financial records are restricted to HR and Accounting. |
-| **Integrity** | Data is accurate, consistent, and protected from unauthorized modification. | Invoices and source code cannot be tampered with in transit or storage. |
-| **Availability** | Systems, networks, and data are accessible to authorized users when needed. | Disaster recovery plans and backups ensure services stay online. |
+| **Confidentiality** | Only authorized eyes can see the information. | Your private messages, bank balance, and personal photos stay private. |
+| **Integrity** | Information remains authentic, uncorrupted, and untampered with. | A money transfer reaches the intended recipient for the exact intended amount without alteration. |
+| **Availability** | Systems and information are accessible whenever you legitimately need them. | You can access your critical family photos, documents, and cloud backups at any time. |
 
-### Guiding Rules
-* **Principle of Least Privilege (PoLP):** You should only have access to systems and data required to perform your job role. If you switch teams or projects, access should be updated.
-* **Zero Trust:** Never trust by default; always verify. Even inside the office network, access requests must be authenticated and authorized.
-* **Shared Responsibility:** Information security is not solely the IT department's job; every employee is the first line of defense.
+### Two Essential Defensive Mindsets
+* **Zero Trust Mindset:** "Never blindly trust; always independently verify." Regardless of who a message claims to be from—a bank, a friend, or tech support—if it involves money, passwords, or personal data, pause and verify through a separate, known channel.
+* **Principle of Least Privilege:** Grant only the minimum permissions needed. If a calculator app asks for access to your camera and contacts, deny it. When registering on an unrelated website, avoid providing unnecessary personal details.
 
 ---
 
-## 2. Identity & Access Management
+## 2. Account & Identity Defense
 
-Compromised credentials are the most common initial access vector for breaches.
+Compromised passwords are the most common gateway for unauthorized account access.
 
 ### 🔑 Passwords vs. Passphrases
-* **Avoid Complexity Traps:** Complex short passwords like `P@$$w0rd1!` are easy for computers to crack and hard for humans to remember.
-* **Use Passphrases:** Combine 4 or more random, memorable words with spaces or symbols.
+* **Avoid Complexity Traps:** Short, awkward passwords like `P@$$w0rd1!` are easy for automated cracking tools to guess and hard for humans to remember.
+* **Use Long Passphrases:** Combine 4 or more random, unrelated words with hyphens or spaces.
   * *Weak:* `Summer2026!`
-  * *Strong:* `coffee-stapler-planet-running` (Longer than 16 characters, high entropy).
-* **Never Reuse Passwords:** A breach on a private service (e.g., an online store) will immediately be tried by attackers against your corporate email and VPN (Credential Stuffing).
-* **Use the Approved Password Manager:** Store unique, complex credentials securely. Never store passwords in plain text, spreadsheets, sticky notes, or browser auto-fills.
+  * *Strong:* `coffee-stapler-planet-running` (Over 16 characters, exponentially higher entropy, and much easier to recall).
+* **Never Reuse the Same Password (Prevent Credential Stuffing):** When a minor discussion forum or delivery app gets breached, attackers instantly test that leaked email/password pair against major services (Google, Apple, bank accounts, social media).
+* **Use a Trusted Password Manager:** Let a modern password manager (such as Bitwarden, 1Password, or your operating system's built-in keychain) generate and store unique, strong passwords for every account.
 
 ### 📱 Multi-Factor Authentication (MFA / 2FA)
-Multi-Factor Authentication requires two or more evidence types:
-1. **Something you know** (Password, PIN)
-2. **Something you have** (Authenticator app, Hardware FIDO2 key, Smartphone)
-3. **Something you are** (Fingerprint, Face scan)
+Multi-Factor Authentication means requiring at least two independent forms of proof before logging in:
+1. **Something you know** (Password or PIN)
+2. **Something you have** (Authenticator app on your phone, physical security key)
+3. **Something you are** (Fingerprint, Face ID)
 
-#### MFA Golden Rules
-* **Never approve a push prompt you didn't trigger:** Attackers use **MFA Fatigue / Push Bombing** (sending dozens of prompts at 3:00 AM) to wear down victims into approving.
-* **SMS is the weakest 2FA:** Prefer hardware security keys (e.g., YubiKey) or time-based one-time password (TOTP) apps (Google Authenticator, Microsoft Authenticator) over SMS, which is vulnerable to SIM-swapping.
-* **IT Support will NEVER ask for your password or MFA code:** If someone claims to be IT and asks for your 6-digit code or password, report it immediately.
+#### Golden Rules for 2FA
+* **Never approve a push prompt you didn't trigger (Beware MFA Fatigue):** Attackers who obtain your password might trigger dozens of push approval alerts in the middle of the night, hoping you will hit "Approve" just to silence your phone. If you didn't initiate the login, always hit **Deny**!
+* **Prefer Authenticator Apps over SMS:** SMS verification codes can be intercepted via SIM-swapping or rogue cellular stations. Use time-based authenticator apps (Google Authenticator, Microsoft Authenticator, Aegis) or hardware keys (FIDO2/YubiKey).
+* **Never share one-time verification codes with anyone:** Legitimate support teams, banks, and service providers will **never** ask you to read back a 6-digit SMS or 2FA code.
 
 ---
 
-## 3. Social Engineering & Phishing Awareness
+## 3. Spotting Phishing & Social Engineering Scams
 
-Social engineering exploits human psychology—urgency, authority, fear, and curiosity—rather than technical vulnerabilities.
+Social engineering exploits human psychology—**urgency, fear, curiosity, respect for authority, and sympathy**—rather than technical exploits.
 
-### Common Social Engineering Types
+### Common Scam Formats
 ```
-Social Engineering
- ├── Phishing        (Mass fraudulent emails with malicious links or attachments)
- ├── Spear Phishing  (Targeted attacks customized with personal/work details)
- ├── Whaling / BEC   (Impersonating C-suite executives requesting urgent payments)
- ├── Smishing / Vishing (Attacks over SMS / Voice phone calls)
- └── Baiting         (Leaving infected USB drives in parking lots or lobbies)
+Everyday Cyber Scams
+ ├── Phishing Emails   (Fake account suspension notices, bogus invoices)
+ ├── Smishing (SMS)    (Fake package delivery links, unpaid toll alerts, bank warnings)
+ ├── Impersonation     (Fake friends/relatives asking for urgent wire transfers, fake tech support)
+ ├── Vishing (Calls)   (Robocalls claiming legal warrants, tax fraud, or bank alerts)
+ └── Physical Baiting  (Infected flash drives left in cafes, parks, or libraries)
 ```
 
-### 🚩 Red Flags in Suspicious Communications
-1. **Artificial Urgency & Fear:** *"Your account will be suspended in 30 minutes! Wire this payment before the end of the day or deal is lost."*
-2. **Sender Spoofing & Lookalike Domains:** Look closely at the sender's actual address, not just the display name:
-   * Legitimate: `john.doe@company.com`
-   * Malicious: `john.doe@cornpany.com`, `john.doe@company-portal.xyz`, or `ceo-urgent-msg@gmail.com`
-3. **Mismatched Hyperlinks:** Hover over links (without clicking) to inspect the destination URL. If the text says `https://portal.company.com` but points to `https://login-verify-account.ru`, do not click!
-4. **Unexpected Attachments:** Generic invoices, resumes, shipping notifications, or files ending in `.exe`, `.scr`, `.iso`, `.zip`, or macro-enabled documents (`.xlsm`, `.docm`).
-5. **Requests for Sensitive Action outside Normal Channels:** Invoices changing bank account routing numbers, requests to purchase gift cards, or requests to bypass approval processes.
+### 🚩 The Red Flags of a Scam
+1. **Manufactured Urgency & Panic:** *"Your account will be terminated in 2 hours! Pay your overdue toll fine immediately or face arrest!"*
+2. **Lookalike Domains & Sender Tricks:** Look closely at the actual web address (URL) in the address bar:
+   * Genuine: `https://service.microsoft.com`
+   * Imposter: `https://microsoft.security-account-check.xyz` or `micros0ft.com` (using a zero `0` instead of the letter `o`).
+3. **Mismatched Links:** On a computer, hover your mouse over links before clicking. Check if the preview in the bottom corner matches where the text claims to go.
+4. **Requests for Screen Sharing or Remote Access:** If a stranger asks you to download any app (AnyDesk, TeamViewer) and share your screen, hang up. They can view your credentials, banking apps, and incoming SMS codes in real-time.
+5. **AI Deepfakes (Voice & Video Cloning):** Attackers can synthesize a loved one's voice or likeness from short social media clips to stage emergency ransom or money-borrowing calls. Always verify emergency financial requests by calling the person back on their regular number.
 
 ---
 
 ## 4. Device & Physical Security
 
-Securing hardware and workstations prevents unauthorized physical and local access.
+If someone gains physical hands-on access to your unlocked device, software barriers can be bypassed in moments.
 
-### 💻 Workstation Hygiene
-* **Lock Before You Walk:** Whenever stepping away from your desk (even for 30 seconds), lock your screen:
+### 💻 Everyday Device Habits
+* **Lock Before You Walk:** In coffee shops, libraries, coworking spaces, or shared rooms, lock your screen whenever you stand up—even for 30 seconds:
   * **Windows:** `Win + L`
   * **macOS:** `Cmd + Ctrl + Q`
-  * **Linux:** `Super + L` or screen lock shortcut.
-* **Clean Desk & Clean Screen Policy:**
-  * Do not leave confidential documents or sensitive customer records on desks.
-  * Shred sensitive printed paperwork using designated cross-cut shredders.
-  * Use privacy screen filters when working in public spaces (trains, cafes, airplanes) to prevent **shoulder surfing**.
-* **Disk Encryption:** All corporate laptops must have full-disk encryption active (BitLocker on Windows, FileVault on macOS, LUKS on Linux).
+  * **Linux:** `Super + L`
+* **Prevent Shoulder Surfing:** In crowded airplanes, trains, or cafes, be mindful of people looking over your shoulder when typing sensitive passwords or viewing private documents. Use a privacy filter screen when possible.
+* **Turn On Full-Disk Encryption:** Ensure your computer has disk encryption enabled (BitLocker on Windows, FileVault on macOS, LUKS on Linux). If your laptop is lost or stolen, your data cannot be extracted without your login credentials.
 
-### 🔌 Removable Media & Hardware Attacks
-* **Curiosity Kills the Network:** Never plug an unknown USB drive into any corporate device. Attackers drop malicious flash drives in office parking lots, cafeterias, and lobbies.
-* **Use Approved Storage Only:** Company-approved cloud storage replaces USB thumb drives for data sharing.
-* **Badge Access:** Never allow **tailgating** (letting someone walk behind you through a secure door without badging). Politely instruct visitors to check in at reception.
+### 🔌 Physical Peripherals & Public Charging
+* **Never Plug In Found USB Sticks:** An abandoned USB drive is a classic bait. It may contain automated scripts that launch upon connection or special hardware designed to fry the device's motherboard (USB Killer).
+* **Beware Public USB Charging Stations ("Juice Jacking"):** When plugging your phone into public airport or mall kiosks, if a prompt asks *"Trust this computer?"* or *"Allow data access?"*, choose **Deny / Charge Only**. Alternatively, use your own wall adapter or a data-blocking USB dongle.
 
 ---
 
-## 5. Data Classification & Privacy
+## 5. Data & Privacy Protection
 
-Data must be handled according to its sensitivity level throughout its lifecycle (Creation, Storage, Transmission, Destruction).
+Protecting your digital footprint keeps your personal information out of data broker databases and scam targeting lists.
 
-### Corporate Data Classification Scheme
+### Personal Data Sensitivity Levels
 
-| Level | Classification | Examples | Handling Rules |
+| Level | Data Type | Risk If Leaked | How to Protect It |
 | :---: | :--- | :--- | :--- |
-| **1** | **Public** | Marketing brochures, public press releases, job postings. | Free to distribute externally. |
-| **2** | **Internal** | Employee directories, internal wikis, organizational charts. | For internal staff only; do not leak externally. |
-| **3** | **Confidential** | Source code, financial reports, business plans, vendor contracts. | Need-to-know access; encrypted at rest and in transit. |
-| **4** | **Restricted / PII** | Customer personal data (GDPR/HIPAA), credit card numbers, passwords, API secrets. | Strictly controlled, audit-logged, encrypted, masked where possible. |
+| **Critical Secrets** | Passwords, PINs, bank card CVV, SMS 2FA codes, private crypto keys | Direct financial theft and account takeover | Never share or store in plain text; use encrypted password managers. |
+| **Private Information** | National ID / SSN, home address, personal phone number, private photos | Targeted identity theft, harassment, impersonation | Share only when legally required; use privacy-masked phone numbers for deliveries. |
+| **Public Footprint** | Real name, hobbies, general city of residence | Used to build personal profiles for targeted scams | Keep social media profiles private; avoid oversharing daily routines in real time. |
 
-### 🤖 Generative AI and Third-Party Cloud Tools (Shadow IT)
-* **Never paste proprietary data into public AI chatbots:** Do not input internal source code, customer records, employee personal data, or strategic documents into public LLMs (e.g., free tiers of external AI tools) unless explicitly approved by IT/Legal.
-* **Shadow IT:** Using unapproved cloud storage (e.g., personal Dropbox, WeTransfer), browser extensions, or messaging apps for company business creates untracked compliance risks.
+### 🤖 Safe Use of Generative AI Tools
+* **Do Not Feed Sensitive Personal Data to Public AI Chatbots:** Free, public AI tools may log your prompts for retraining or review. Never paste personal tax records, medical documents, photos of government IDs, or private passwords into public AI chats.
+* **Anonymize Data First:** If using AI to review a document, replace real names, phone numbers, and addresses with generic placeholders (e.g., "Jane Doe", "555-0100").
 
 ---
 
-## 6. Network & Remote Work Hygiene
+## 6. Network Security
 
-Working remotely or on the road introduces additional network vulnerabilities.
+The network carrying your internet traffic determines whether your data travels securely or in plain view.
 
 ### 📶 Wi-Fi Best Practices
-* **Avoid Open Public Wi-Fi:** Coffee shops, hotel, and airport Wi-Fi networks often lack encryption, allowing attackers to intercept unencrypted traffic or execute **Evil Twin / Man-in-the-Middle** attacks.
-* **Use Corporate VPN / ZTNA:** Always connect to the corporate Virtual Private Network (VPN) when working remotely before accessing internal systems.
-* **Cellular Hotspot Preferred:** When sensitive work is required outside the office, use your company mobile device's cellular hotspot rather than public Wi-Fi.
-
-### 🏠 Home Office Security
-* Change the default administrative username and password on your home Wi-Fi router.
-* Ensure your home Wi-Fi uses **WPA2-AES or WPA3** encryption.
-* Keep home router firmware updated.
-* Separate work devices from IoT smart devices (smart TVs, IoT bulbs, IP cameras) using a guest Wi-Fi network if supported.
+* **Treat Open Public Wi-Fi with Caution:** Free Wi-Fi networks in airports, malls, and cafes are unencrypted by default. Attackers can create evil-twin hotspots with identical names to snoop on unencrypted traffic.
+* **Use Cellular Data for Sensitive Tasks:** When checking banking apps or making online purchases away from home, switch to your phone's cellular mobile network (4G/5G) or a personal hotspot instead of public Wi-Fi.
+* **Harden Your Home Router:**
+  * Change the default router administration credentials (never leave it as `admin/admin`).
+  * Ensure your Wi-Fi uses **WPA2-AES or WPA3** encryption.
+  * Turn on automatic firmware updates to patch router security bugs.
 
 ---
 
-## 7. Incident Response & Reporting Procedures
+## 7. Emergency First Aid: What to Do If You Get Hacked
 
-Speed is paramount when containing a security incident. An early report can stop a ransomware infection before it spreads to the entire organization.
+Speed is critical during the first 10 minutes following an account compromise or accidental link click.
 
 ```
-       🚨 If you suspect an incident:
+       🚨 If you suspect an account compromise:
        
-Step 1: DISCONNECT      Step 2: REPORT IMMEDIATELY      Step 3: COOPERATE
-Turn off Wi-Fi or       Call the IT Security Hotline    Provide details
-unplug Ethernet cord.   Do NOT attempt DIY cleaning.    (Don't panic!)
+Step 1: DISCONNECT           Step 2: RESET PASSWORDS       Step 3: SAFEGUARD & ALERT
+Turn off Wi-Fi & cellular    Use a separate, clean         Freeze affected bank cards,
+to stop active data leaks    device to reset passwords     and warn contacts about scams
 ```
 
-### ⚡ When to Report an Incident
-Report immediately if you observe:
-* You clicked a link and entered your credentials on a suspicious site.
-* A device was lost, stolen, or left unattended in an insecure location.
-* Unexplained pop-ups, encrypted file extensions, or system sluggishness.
-* Unexpected password reset notifications or MFA push requests.
-* An email instructing unusual financial transfers or credential changes.
-
-### 🤝 No-Blame Culture
-> **Remember:** Everyone makes mistakes. If you clicked a phishing link or downloaded an attachment by accident, **report it immediately**. You will not be penalized for proactive reporting. Concealing or delaying a report turns a minor incident into a company-wide breach.
-
-### 📞 Security Contacts
-* **IT Helpdesk:** `it-support@company.internal` | Ext: `x1000`
-* **Security Operations (SOC):** `security@company.internal` | Emergency Phone: `+1 (555) 019-SAFE`
-* **Internal Slack/Teams Channel:** `#it-security-help`
+### ⚡ Warning Signs You May Be Compromised
+* You receive an unexpected notification that your account was logged in from a distant location.
+* Unexplained password reset emails or unsolicited MFA verification codes arrive.
+* Friends or family tell you that your account is sending them strange messages or asking for money.
+* Your phone suddenly loses all cellular signal (possible SIM-swap attack).
+* Your computer displays ransom demands or files have weird new extensions.
 
 ---
 
-## 8. Knowledge Assessment: Test Your Security IQ
+## 8. Everyday Security IQ Test: 10 Realistic Scenarios
 
-Use this 10-question evaluation to test employee understanding. Answers and rationales are provided in Section 9.
-
----
-
-### Question 1: Phishing Identification
-You receive an email from `support@micros0ft-security-update.com` stating: *"Urgent: Critical vulnerability detected on your laptop. Click here to download the patch within 2 hours or your account will be locked."* What is the proper response?
-- **A)** Click the link immediately to download the patch so your laptop remains safe.
-- **B)** Forward the email to all colleagues to warn them.
-- **C)** Do not click any links; report the email to the IT Security team using the PhishAlarm/Report button.
-- **D)** Reply to the email asking if the email is legitimate.
+Test your cybersecurity instincts with these 10 practical scenarios. (Answers and explanations are in Section 9).
 
 ---
 
-### Question 2: Authentication & Credentials
-Which of the following is the most secure password practice?
-- **A)** `P@ssw0rd2026!` changed every 30 days and written on a sticky note under your keyboard.
-- **B)** A 18-character passphrase stored in an approved corporate password manager, paired with hardware token MFA.
-- **C)** Reusing the same 12-character alphanumeric password across your work email, personal email, and LinkedIn.
-- **D)** Saving your master password in a browser text file named `credentials.txt` on your desktop.
+### Scenario 1: The Urgent Text Message
+You receive a text message from an unknown number:  
+> *"USPS: Your package delivery has been suspended due to an incomplete address. Update your street details within 12 hours at `http://postal-track-update.info` or the package will be returned."*
+
+**What should you do?**
+- **A)** Click the link immediately to ensure your package is delivered on time.
+- **B)** Forward the message to five friends to see if their packages are also delayed.
+- **C)** Do not click the link; check your tracking number directly on the official USPS website or app.
+- **D)** Reply to the text message with your full home address.
 
 ---
 
-### Question 3: MFA Push Bombing
-At 2:30 AM, your phone receives four consecutive MFA push notifications requesting approval to log into your corporate portal. You did not initiate this login. What should you do?
-- **A)** Approve the notification so your phone stops vibrating and you can go back to sleep.
-- **B)** Deny the request, do not approve, and immediately report the unauthorized attempts to IT Security in the morning or via emergency line.
-- **C)** Turn off your phone and ignore it.
-- **D)** Share the code with a coworker to see if they are also receiving it.
+### Scenario 2: Password Habits
+Which of the following is the most secure approach for safeguarding accounts?
+- **A)** Creating a short password like `P@ssw0rd2026!` and writing it on a piece of paper in your wallet.
+- **B)** Using a 16+ character passphrase of random words managed by a password manager, backed by app-based 2FA.
+- **C)** Using the exact same 12-character password across all your social media, personal email, and shopping accounts.
+- **D)** Saving all your passwords in an unencrypted screenshot titled `passwords.png` on your phone.
 
 ---
 
-### Question 4: Physical Security & Tailgating
-You badge into the office main entrance. An unfamiliar person carrying two heavy boxes walks right behind you and asks you to hold the door. How should you respond?
-- **A)** Let them in immediately; holding doors is common courtesy.
-- **B)** Hold the door, but ask for their employee ID after they set the boxes down.
-- **C)** Politely hold the door open while asking them to badge in separately or escort them to the reception desk for verification.
-- **D)** Run away and ignore them.
+### Scenario 3: Midnight 2FA Alerts
+At 2:30 AM, your phone buzzes four consecutive times with 2FA push notifications asking: *"Did you just attempt to log into your account? Tap Approve to confirm."* You were fast asleep and did not initiate this.  
+**What should you do?**
+- **A)** Tap "Approve" so your phone stops buzzing and you can go back to sleep.
+- **B)** Tap "Deny", and as soon as possible, change your account password from a trusted device.
+- **C)** Turn off your phone and ignore it permanently.
+- **D)** Screenshot the alert and post it on social media to ask what it means.
 
 ---
 
-### Question 5: Physical Media & Baiting
-While walking through the office parking lot, you find a branded 64GB USB flash drive labeled *"Executive Compensation 2026 - Confidential"*. What should you do?
-- **A)** Plug it into your work laptop to see who owns it and return it.
-- **B)** Plug it into a home computer instead to avoid infecting work systems.
-- **C)** Hand the drive directly over to IT Security without plugging it into any device.
-- **D)** Format the drive so you can reuse it for personal backups.
+### Scenario 4: Coffee Shop Hygiene
+You are working on your personal laptop at a crowded coffee shop and need to step away for 3 minutes to pick up your drink from the counter.  
+**What should you do?**
+- **A)** Leave the laptop wide open on the table since you will only be gone for a few moments.
+- **B)** Turn off your screen monitor without locking the system.
+- **C)** Lock your workstation (`Win + L` or `Cmd + Ctrl + Q`) and keep an eye on your belongings.
+- **D)** Ask a stranger sitting nearby to watch your unlocked laptop.
 
 ---
 
-### Question 6: Public Wi-Fi
-You are traveling and need to send a confidential contract to a client while waiting at an airport with free, unsecured public Wi-Fi. What is the safest approach?
-- **A)** Connect to the airport Wi-Fi and send the document as quickly as possible.
-- **B)** Use your corporate phone's encrypted cellular hotspot, or connect to the corporate VPN before accessing company files.
-- **C)** Ask another passenger to share their personal Wi-Fi password.
-- **D)** Rename the file to `vacation_photos.zip` and send it over public Wi-Fi.
+### Scenario 5: The Mystery Flash Drive
+While walking through a public park, you find a brand-new 128GB USB flash drive lying on a bench with a handwritten label reading *"Private Photos & Passwords"*.  
+**What should you do?**
+- **A)** Plug it into your personal laptop to inspect the contents and locate the owner.
+- **B)** Plug it into a public library computer so your own device doesn't catch a virus.
+- **C)** Do not plug it into any computer; leave it with the park lost-and-found or dispose of it safely.
+- **D)** Right-click and format the drive so you can keep it as free storage.
 
 ---
 
-### Question 7: Artificial Intelligence & Sensitive Data
-You want to summarize a confidential internal sales report and extract customer contact details. You open a free public generative AI tool in your browser. What should you do?
-- **A)** Paste the entire report into the prompt; public AI tools keep all data completely confidential.
-- **B)** Only paste the customer names and phone numbers, but remove the company names.
-- **C)** Do not paste confidential corporate data, customer PII, or internal metrics into public AI tools; consult IT for approved enterprise AI environments.
-- **D)** Translate the text into another language first, then paste it.
+### Scenario 6: Financial Transactions on Public Wi-Fi
+You are waiting at an airport gate and urgently need to transfer money using your online banking portal. The airport offers an open, unencrypted free Wi-Fi network.  
+**What is the safest choice?**
+- **A)** Connect to the airport Wi-Fi and complete the transfer as quickly as possible.
+- **B)** Disconnect from the public Wi-Fi and use your phone's cellular mobile data (4G/5G) to make the transfer.
+- **C)** Ask a nearby traveler for access to their personal phone via Bluetooth.
+- **D)** Switch your browser to "Incognito Mode" and use the public Wi-Fi.
 
 ---
 
-### Question 8: Business Email Compromise (BEC)
-You receive an email appearing to come from your CEO: *"I am in an urgent closed-door acquisition meeting and cannot talk. Please wire $25,000 immediately to this new supplier account. Do not call me, just confirm once done."* What should you do?
-- **A)** Execute the transfer immediately because it came from the CEO and states it is urgent.
-- **B)** Verify the request through a secondary, out-of-band communication channel (e.g., known phone number, direct manager, or standard finance verification procedure) before taking any action.
-- **C)** Reply to the email asking the CEO for their credit card number instead.
-- **D)** Forward the email to your personal email account to process it from home.
+### Scenario 7: Artificial Intelligence & Private Documents
+You are using a free public AI chat assistant to draft a formal letter. Which of the following inputs poses a serious privacy risk?
+- **A)** Asking the AI to summarize an article about space exploration.
+- **B)** Asking the AI for a healthy dinner recipe based on ingredients in your fridge.
+- **C)** Uploading an unredacted photo of your driver's license and bank statement to extract information.
+- **D)** Asking the AI to rewrite an email to make it sound more polite.
 
 ---
 
-### Question 9: Workstation Security
-You are leaving your desk for 5 minutes to grab coffee in the office breakroom. What should you do?
-- **A)** Leave your computer unlocked since you will be back in under 5 minutes.
-- **B)** Turn off your monitor, leaving the PC unlocked.
-- **C)** Lock your workstation (`Win + L` or `Cmd + Ctrl + Q`) before leaving.
-- **D)** Ask a neighbor to look at your screen while you are away.
+### Scenario 8: The Distressed Friend Scam
+You receive a sudden message on social media from a close friend:  
+> *"Hey! I'm stranded abroad, lost my wallet and phone, and desperately need $300 for a hotel room. Can you wire it to this account right now? I'll pay you back tomorrow!"*
+
+**What is the first thing you should do?**
+- **A)** Send the money immediately because true friends help each other in emergencies.
+- **B)** Call your friend directly on their known phone number or reach out through mutual contacts to verify before sending any money.
+- **C)** Message back asking what their pet's name is.
+- **D)** Send half the requested amount to be safe.
 
 ---
 
-### Question 10: Post-Click Response
-You accidentally click a link in an email and enter your corporate password on a site that you immediately realize is a fake login portal. What is the correct protocol?
-- **A)** Close the browser tab and pretend nothing happened to avoid getting into trouble.
-- **B)** Wait 24 hours to see if any unusual charges or logins occur.
-- **C)** Immediately disconnect network access (Wi-Fi/cable), notify the IT Security Incident team, and change your password from another secure device.
-- **D)** Delete your browser history and restart your computer.
+### Scenario 9: Fake Antivirus Pop-Ups
+While browsing a website, a loud pop-up suddenly appears:  
+> *"CRITICAL WARNING: Your computer has been infected with 5 dangerous viruses! Call Microsoft Support immediately at 1-800-XXX-XXXX or click here to clean!"*
+
+**What is actually happening?**
+- **A)** Your operating system has detected malware and is providing official tech support.
+- **B)** It is a common "scareware" browser scam designed to trick you into calling a boiler-room scammer or downloading malware. Simply close the tab.
+- **C)** You must immediately disconnect your hard drive and take it to an electronics store.
+- **D)** You should call the number to verify if your computer is on their list.
 
 ---
 
-## 9. Answer Key & Learning Rationales
+### Scenario 10: Accidental Credential Entry
+You accidentally click a link in an email and type your email account password on a page that you immediately realize is a convincing fake.  
+**What should you do right away?**
+- **A)** Close the browser window, pretend it didn't happen, and hope for the best.
+- **B)** Wait a week to see if anything weird happens to your account.
+- **C)** Immediately log in to the genuine service from a safe device, change your password, and enable two-factor authentication.
+- **D)** Delete your browser search history and restart your computer.
 
-| Question | Correct Answer | Rationale |
+---
+
+## 9. Answer Key & In-Depth Explanations
+
+| Question | Correct Answer | Practical Rationale |
 | :---: | :---: | :--- |
-| **Q1** | **C** | Legit vendors do not send urgent ultimatum emails from lookalike domains (`micros0ft...`). Report it without clicking links or downloading attachments. |
-| **Q2** | **B** | Long passphrases stored in an encrypted vault paired with hardware MFA provide maximum defense against brute-forcing, credential stuffing, and phishing. |
-| **Q3** | **B** | Repeated unsolicited MFA requests represent an MFA Fatigue attack. Approving grants the attacker full access. Deny and report immediately. |
-| **Q4** | **C** | Tailgating relies on politeness. Everyone must badge in or be checked in by reception to ensure facility integrity. |
-| **Q5** | **C** | The USB is a classic "Baiting" trap containing malware or BadUSB payload designed to execute scripts on connection. Always surrender found media to IT. |
-| **Q6** | **B** | Open Wi-Fi is vulnerable to eavesdropping and rogue access points. Cellular hotspots and enterprise VPNs encrypt traffic end-to-end. |
-| **Q7** | **C** | Data entered into public AI tools may be retained, used for model retraining, or exposed in breaches. Never expose company confidential data. |
-| **Q8** | **B** | Urgent payment requests bypassing verification protocols are classic BEC scams. Always verify out-of-band using predetermined numbers or workflows. |
-| **Q9** | **C** | An unlocked workstation takes only seconds to compromise or photograph. Always lock your screen every time you step away. |
-| **Q10** | **C** | Prompt reporting allows the security team to revoke active sessions and reset credentials before the attacker establishes persistence. |
+| **Q1** | **C** | Postal carriers do not send urgent ultimatum texts from strange domains (`.info`, `.cc`). Always verify tracking numbers directly on the official app or website. |
+| **Q2** | **B** | Long passphrases (16+ characters) are practically immune to brute-force cracking. A password manager eliminates the temptation to reuse passwords across sites. |
+| **Q3** | **B** | Midnight push bombardment is an "MFA Fatigue" attack. Tapping "Approve" grants the attacker access. Deny the prompt, then change your password immediately. |
+| **Q4** | **C** | Unattended, unlocked laptops can be accessed, cloned, or photographed in seconds. Locking your screen (`Win + L` / `Cmd + Ctrl + Q`) is an indispensable habit. |
+| **Q5** | **C** | Mystery USB drives are a classic "Baiting" trap. They can execute hidden keystroke injection scripts the millisecond they are plugged in. Never plug them in. |
+| **Q6** | **B** | Open public Wi-Fi is vulnerable to eavesdropping and rogue clone hotspots. Cellular networks (4G/5G) are encrypted by carrier towers and vastly safer. |
+| **Q7** | **C** | Prompts entered into free public AI platforms may be stored on external servers and reviewed by contractors. Never feed raw government IDs or financial statements. |
+| **Q8** | **B** | Compromised social accounts are routinely used to send urgent financial pleas to all contacts. Always verify using a secondary, direct voice channel. |
+| **Q9** | **B** | Web browsers cannot scan your operating system for viruses. These pop-ups are fraudulent scareware designed to extract money or remote access. Just close the tab. |
+| **Q10** | **C** | Attackers often take minutes or hours to act on harvested credentials. Acting swiftly in the first 10 minutes to reset your real password locks them out before they strike. |
 
 ---
 
-## 10. Daily Security Checklist & Employee Pledge
+## 10. Daily Digital Security Habits Checklist
 
-### ✅ Daily Security Checklist
-- [ ] My screen is locked whenever I am away from my desk.
-- [ ] No passwords, access tokens, or sensitive papers are left in open view.
-- [ ] I verify sender addresses and hover over links before clicking.
-- [ ] I only use company-approved tools and storage solutions for work documents.
-- [ ] I immediately report any strange system behavior or suspicious communications.
-
-### ✍️ Employee Security Pledge
-> *"I understand that I play an essential role in protecting company data, systems, and customer privacy. I commit to following the security policies outlined in this guide, maintaining vigilance against social engineering, and reporting suspected security issues promptly to the IT Security team."*
+### ✅ Personal Everyday Security Checklist
+- [ ] Two-Factor Authentication (2FA) is turned on for my primary email, bank, and social accounts.
+- [ ] I never reuse the same password across multiple websites.
+- [ ] My laptop and phone are protected by a passcode and full-disk encryption.
+- [ ] I lock my screen whenever I step away in a public or shared space.
+- [ ] I pause and inspect links and sender details before clicking on unexpected messages.
+- [ ] I never share verification codes (2FA / SMS) with anyone who asks.
+- [ ] I keep my phone OS, browser, and computer software up to date.
 
 ---
-*For questions, training suggestions, or policy clarifications, please contact the IT Security Team.*
+*Stay curious, stay cautious, and protect your digital life! Feel free to share this guide with friends and family.*

@@ -1,53 +1,52 @@
-# 🚨 Security Incident Report Form
+# 🚨 Emergency Response Checklist & Incident Log
 
-Use this template to log and report potential security incidents to the IT Security Team (`security@company.internal`).
+[English](INCIDENT_REPORT_TEMPLATE.md) | [简体中文](INCIDENT_REPORT_TEMPLATE_zh.md)
 
----
-
-## 1. Reporter Information
-* **Date & Time Reported:** 
-* **Reporter Name:** 
-* **Reporter Email / Phone:** 
-* **Department:** 
-* **Manager Name:** 
+If you suspect your personal account was compromised, you accidentally entered credentials into a fake website, your phone/computer was lost, or you encountered an online scam, use this emergency checklist to stop the damage and preserve evidence.
 
 ---
 
-## 2. Incident Overview
-* **Date & Time Incident Occurred (or Discovered):** 
-* **Affected Device / Asset Name or IP:** 
-* **Incident Classification (Check one):**
-  - [ ] Phishing / Credential Entry on Suspicious Site
-  - [ ] Lost / Stolen Hardware (Laptop, Mobile Device, Token)
-  - [ ] Unauthorized Access / Account Takeover
-  - [ ] Malware / Ransomware Suspected
-  - [ ] Data Leak / Inadvertent Disclosure of Sensitive Data
-  - [ ] Physical Security Breach / Unauthorized Visitor
-  - [ ] Other: _________________________________________________
+## 1. The 15-Minute Golden Window Checklist
+
+Follow the steps that correspond to your situation immediately:
+
+### Scenario A: You Entered Passwords on a Suspicious Website
+- [ ] **Reset your password immediately from a trusted device:** Use a different, clean phone or computer to change the affected account's password.
+- [ ] **Force log out of all active sessions:** Go to your account's Security settings and select "Log out of all other devices" / "Revoke active sessions".
+- [ ] **Audit reused passwords:** If you used that same password on any other service (email, shopping, social media), change those immediately.
+- [ ] **Enable Two-Factor Authentication (2FA):** Switch on app-based 2FA to prevent unauthorized logins even if someone knows your password.
+
+### Scenario B: Suspected Malware or Ransomware Infection
+- [ ] **Disconnect immediately:** Unplug your network cable, turn off Wi-Fi, or enable Airplane Mode to halt communication with external command servers.
+- [ ] **Do not immediately reboot or run random cleanup scripts:** Keep the machine running if forensic evidence or professional diagnosis is needed.
+- [ ] **Run a malware scan using a trusted, verified tool:** Use built-in system security (e.g., Windows Defender) or seek reputable technician assistance.
+
+### Scenario C: Banking Information or Financial Scams
+- [ ] **Contact your bank / card issuer immediately:** Request a freeze on compromised cards and lower unverified transaction limits.
+- [ ] **Report to local cyber fraud authorities:** Contact your local police or anti-fraud emergency center and report transaction details.
+- [ ] **Warn your contacts:** If your messaging or social media accounts were taken over, post a status or message trusted friends: *"My account was compromised. Do not send money or click links sent in my name."*
 
 ---
 
-## 3. Incident Description & Evidence
-* **Detailed Description of Events:**
-  *(Describe what happened, what you saw, what links were clicked, or what unusual behavior occurred)*
-  
-* **Immediate Actions Taken:**
-  - [ ] Disconnected from Wi-Fi / Network Cable
-  - [ ] Changed Account Password (from a separate secure device)
-  - [ ] Kept device powered on (did not restart) for forensic log preservation
-  - [ ] Other: _________________________________________________
+## 2. Personal Incident Log (Preserve Evidence)
 
-* **Attachments / Indicators:**
-  - [ ] Suspicious email attached as `.eml` or `.msg` (original headers intact)
-  - [ ] Screenshot of malicious prompt or error message
-  - [ ] URL of suspicious website: `hxxps://...`
+Accurate details are vital when submitting account recovery requests, filing disputes with banks, or making a police report.
+
+* **Date & Time Noticed:** ____________________________________
+* **Affected Account(s) / Device(s):** ________________________
+* **Incident Category (Check all that apply):**
+  - [ ] Phishing / Credential leak on fake website
+  - [ ] Account takeover / Unauthorized login
+  - [ ] Stolen or lost phone / laptop
+  - [ ] Financial scam / Impersonation of friend or authority
+  - [ ] Malware / Ransomware infection
+  - [ ] Other: _____________________________________________
+
+* **Evidence & Investigation Notes:**
+  * Scam website URL / Fake link: `hxxps://...`
+  * Scammer's email address / phone number / social handle: ________________________
+  * Transaction IDs / Financial loss (if applicable): _____________________________
+  * Evidence checklist (Screenshots of chats, scam messages, receipts): [ ] Safely preserved
 
 ---
-
-## 4. IT / Security Response (For IT Manager & SOC Use Only)
-* **Assigned Investigator:** 
-* **Initial Severity Assessment:** [ ] Low  [ ] Medium  [ ] High  [ ] Critical
-* **Containment Steps:** 
-* **Root Cause Analysis (RCA):** 
-* **Corrective & Preventive Actions:** 
-* **Resolution Date & Sign-off:** 
+*Stay calm, act quickly, and document everything!*
